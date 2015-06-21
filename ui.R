@@ -5,8 +5,9 @@ shinyUI(pageWithSidebar(
         sidebarPanel(
                 h4("This app features a simple program to predict the sub-species of iris flowers, 
         by using the sepal length and width, and petal length and width. This app does 
-        not yet possess the ability to catch errors. Please enter only valid numerical 
-        values for he prediction. A sample set of values and prediction is shown for ease of use."),
+        not yet possess the ability to catch errors. Please enter only valid numerical values for the prediction.
+        After entering the values for the sepal or petal lengths and widths, click on 'Predict' to get a prediction.
+        A sample set of values and prediction is shown for ease of use."),
                 textInput(inputId="S.Length", label="Sepal Length (positive values up to 10.0)", value = 5.1),
                 textInput(inputId="S.Width", label="Sepal Width (positive values up to 5.0)", value = 3.5),
                 textInput(inputId="P.Length", label="Petal Length (positive values up to 10.0)", value = 1.4),
