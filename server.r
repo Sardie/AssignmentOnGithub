@@ -1,5 +1,6 @@
 library(shiny)
 library(caret)
+library(e1071)
 
 data(iris)
 
